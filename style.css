@@ -1,0 +1,115 @@
+html{
+    scroll-behavior: smooth;
+}
+ 
+body{
+
+ 
+font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+h1,h2,h3,h4,h5,h6{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.hr-style{
+
+ border: 1px black underline;
+ border-inline-color: bold;
+
+
+}
+
+header{
+    background-image: url("image/banner-photo.jpg");
+    background-position: center ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.navbar{
+    padding: 1% 10%;
+    background-color:lightcyan;
+} 
+
+.navar-icon{
+
+    color: white;
+}
+
+.navbar-brand h1{
+
+    width: 100px;
+    height: auto;
+
+}
+
+.nav-link{
+
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+
+
+}
+
+.nav-link:hover{
+    background: red ;
+    color: white;
+    transform: scale(1.1);
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container h1{
+
+    font-size: 3.5rem;
+    background-color: rgba(7,101,189,0.8);
+    padding: 10px 20px;
+    font-family: 'Handlee';  
+    border-radius: 5px;
+}
+
+#about{
+    margin: 0px;
+    padding:5%  ;
+    background-color: darkgray;
+}
+
+
+.banner-container{
+
+    height: 100vh;
+
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+footer{
+    padding: 1% 10%;
+    background: #056676;
+    width: 100%;
+}
+
+footer a{
+    color: white;
+    margin:0 10px ;
+}
+
+footer a :hover{
+    color: black;
+}
+
